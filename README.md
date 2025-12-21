@@ -11,10 +11,17 @@
 # Roadmap
 
 ✅ PCB
+
 ✅ Working firmware (maybe somethingneeds to be updated)
+
 ❌ Share STL for PCB mount
+
 ❌ Add reverse by button
+
 ❌ Sketches for debugging during build
+
 ❌ Documentation
+
 ❌ Scripted animation
+
 ❌ Maybe something else needs to be done
