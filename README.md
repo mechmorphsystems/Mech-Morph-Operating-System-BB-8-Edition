@@ -16,6 +16,8 @@
 
 ❌ Share STL for PCB mount
 
+❌ Add BOM
+
 ❌ Add reverse by button
 
 ❌ Sketches for debugging during build
