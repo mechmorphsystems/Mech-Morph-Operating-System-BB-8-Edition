@@ -7,6 +7,8 @@
 
 ## ⚠️English is not my native language,i use MT to describe documentation
 
+# BOM
+https://docs.google.com/spreadsheets/d/1I66MaUoyIMeUOdSFabXwNctNfXzyCv_scJv3rbXvbWk/edit?usp=sharing
 
 # Roadmap
 
@@ -14,9 +16,9 @@
 
 ✅ Working firmware (maybe somethingneeds to be updated)
 
-❌ Share STL for PCB mount
+✅ Add BOM
 
-❌ Add BOM
+❌ Share STL for PCB mount
 
 ❌ Add reverse by button
 
