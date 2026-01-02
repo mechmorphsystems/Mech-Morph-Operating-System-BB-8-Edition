@@ -23,7 +23,7 @@ void OnDataRecv(const uint8_t * mac, const uint8_t *incomingData, int len) {
 
 void Receiver::init()
 {
-    esp_now_register_recv_cb(OnDataRecv);
+    esp_now_register_recv_cb(esp_now_recv_cb_t(OnDataRecv));
 }
 
 int16_t Receiver::getDomeLightMode()

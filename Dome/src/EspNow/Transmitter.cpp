@@ -20,7 +20,7 @@ void Transmitter::init(uint8_t remoteAddress[6])
     peerInfo.channel = 0;  
     peerInfo.encrypt = false;
 
-    esp_now_register_send_cb(OnDataSent);
+    esp_now_register_send_cb(esp_now_send_cb_t(OnDataSent));
 
     memcpy(peerInfo.peer_addr, remoteAddress, 6);
     memcpy(Transmitter::remoteAddress, remoteAddress, 6);
